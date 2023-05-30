@@ -14,10 +14,14 @@
 ### Descrição
 Este projeto consiste no desenvolvimento de uma aplicação em Python voltada para abordar temas relacionados à fome mundial e à escassez de alimentos. Através desta aplicação, buscamos conscientizar e informar os usuários sobre a importância de combater esse problema global.
 
-### Funcionalidades
+### Tema
 1. Informações sobre a fome no mundo: A aplicação apresentará dados e estatísticas sobre a fome, suas causas e impactos em diferentes regiões do mundo.
 2. Soluções e iniciativas: Serão abordadas soluções e iniciativas que estão sendo desenvolvidas para combater a fome, como programas de segurança alimentar, agricultura sustentável e redução do desperdício de alimentos.
 3. Conscientização e engajamento: Através de conteúdos informativos e inspiradores, pretendemos conscientizar os usuários sobre a importância de apoiar ações e projetos relacionados ao combate à fome.
+
+### Funcionalidades
+1. Mostra graficos de temperatura e ph da agua anual, para verificar se houve danos ou perdas na safra.
+2. Pode melhorar a produção e evitar o desperdício de alimentos
 
 ### Instruções de Uso
 1. Clone este repositório em sua máquina local.
