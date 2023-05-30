@@ -2,11 +2,11 @@
 
 ## Equipe
 
-- Nome do Integrante 1: Felipe Capriotti da Silva Santos | RM: 98460
-- Nome do Integrante 2: Gustavo Kawamura Christofani | RM: 99679
-- Nome do Integrante 3: Henrique Pontes Oliveira | RM: 98036
-- Nome do Integrante 4: Rafael Carvalho mattos | RM: 99874
-- Nome do Integrante 5: Vinicius Santos Yamashita de Farias | RM: 550908
+- Felipe Capriotti da Silva Santos | RM: 98460
+- Gustavo Kawamura Christofani | RM: 99679
+- Henrique Pontes Oliveira | RM: 98036
+- Rafael Carvalho mattos | RM: 99874
+- Vinicius Santos Yamashita de Farias | RM: 550908
 
 
 ## Projeto: Aplicação em Python para Combate à Fome Mundial
@@ -27,7 +27,7 @@ Este projeto consiste no desenvolvimento de uma aplicação em Python voltada pa
 
 ### Requisitos
 - Python 3.x
-- Bibliotecas: [lista de bibliotecas utilizadas, se aplicável]
+- Bibliotecas: matplotlib
 
 ### Contribuições
 Este projeto está aberto a contribuições da comunidade. Caso tenha interesse em colaborar, fique à vontade para fazer um fork do repositório, implementar melhorias e enviar um pull request.
