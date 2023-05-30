@@ -1,9 +1,13 @@
 # README
 
 ## Equipe
-- Nome do Integrante 1: [Nome] | RM: [RM]
-- Nome do Integrante 2: [Nome] | RM: [RM]
-- Nome do Integrante 3: [Nome] | RM: [RM]
+
+- Nome do Integrante 1: Felipe Capriotti da Silva Santos | RM: 98460
+- Nome do Integrante 2: Gustavo Kawamura Christofani | RM: 99679
+- Nome do Integrante 3: Henrique Pontes Oliveira | RM: 98036
+- Nome do Integrante 4: Rafael Carvalho mattos | RM: 99874
+- Nome do Integrante 5: Vinicius Santos Yamashita de Farias | RM: 550908
+
 
 ## Projeto: Aplicação em Python para Combate à Fome Mundial
 
@@ -32,11 +36,11 @@ Este projeto está aberto a contribuições da comunidade. Caso tenha interesse 
 Este projeto é licenciado sob a [especificar a licença utilizada].
 
 ### Contato
-Em caso de dúvidas ou sugestões, entre em contato conosco através do email [email de contato] ou pelos nossos respectivos RMs.
+Em caso de dúvidas ou sugestões, entre em contato conosco através do email `hpo.pontes@gmail.com` ou pelos nossos respectivos RMs.
 
 ### Agradecimentos
 Agradecemos à disciplina de Software & Total Experience Design e à disciplina de Storytelling e Inspiração Empreendedora por fornecerem os fundamentos e inspiração para o desenvolvimento deste projeto. Também agradecemos a todos os colaboradores e comunidade de código aberto que contribuem para a melhoria contínua do projeto.
 
 Esperamos que esta aplicação seja uma ferramenta útil para disseminar conhecimento e promover a conscientização sobre o combate à fome mundial.
 
-Desenvolvido por [Nome da Equipe].
+Desenvolvido por HortoTech.
