@@ -2,7 +2,7 @@
 #### [link do `tinkercad`](https://www.tinkercad.com/things/jF4wiORb41d?sharecode=nk5zQd-8BtCSaRzSzX4gIj9It6Q3VhzU6KKkw0ai6EU)
 #### [link do `youtube`](https://youtu.be/38ourC6nbUk)
 #### [link `githubprojeto`](https://github.com/Pontessxx/Arduino-HEIZ)
-
+https://github.com/Pontessxx/heiz-python/assets/126187491/27d36638-9014-46e6-9de4-78ae04bb18ae
 ## Equipe
 
 - Felipe Capriotti da Silva Santos | RM: 98460
