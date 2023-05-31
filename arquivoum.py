@@ -5,8 +5,9 @@ dados_temperatura = []
 meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ags', 'Set', 'Out', 'Nov', 'Dez']
 count = 0
 opcao = 0
-
+#variaveis globais definidas
 def exibir_menu():
+    #funcao de menu para chamar quando necessário
     print('_______________')
     print('-  Hortotech  -')
     print('_______________')
@@ -18,6 +19,7 @@ def exibir_menu():
     print('(0) Sair do código')
 
 def calcular_pH_descricao(pH):
+    #verifica cada mes a qualidade do ph
     if pH < 7:
         return 'Ácido'
     elif pH > 7:
@@ -26,6 +28,7 @@ def calcular_pH_descricao(pH):
         return 'Neutro'
 
 def calcular_temperatura_descricao(media_temp):
+    #calcula a media para apresentar no final
     if media_temp < 20:
         return 'Fria'
     elif media_temp > 30:
@@ -34,8 +37,9 @@ def calcular_temperatura_descricao(media_temp):
         return 'Mediana'
 
 def plotar_grafico():
-    plt.plot(dados_pH, color='darkcyan', label='pH da água')
-    plt.plot(dados_temperatura, color='orange', label='Temperatura')
+    #funcao usando biblioteca externa para plotar o grafico
+    plt.plot(dados_pH, color='darkcyan', label='pH da água') #linha de cor darkcian - ph agua
+    plt.plot(dados_temperatura, color='orange', label='Temperatura') #linha  temp
     plt.title('Qualidade do ar - Anual')
     plt.xlabel('Meses')
     plt.ylabel('Valor')
@@ -44,7 +48,7 @@ def plotar_grafico():
     plt.show()
 
 while True:
-    exibir_menu()
+    exibir_menu() # retorna no menu
     opcao = input('Opção: ')
 
     match opcao:
@@ -57,7 +61,7 @@ while True:
                 except ValueError:
                     print('Valor inválido. Por favor, digite um número.')
 
-                descricao_pH = calcular_pH_descricao(pH_agua)
+                descricao_pH = calcular_pH_descricao(pH_agua) # verifica o ph de cada mes
                 print(f'O pH da água é: {descricao_pH}')
 
                 dados_pH.append(pH_agua)
@@ -65,16 +69,16 @@ while True:
                 count += 1
 
                 if count == 12:
-                    break
+                    break    #para o codigo
 
         case '2':
             if not dados_pH or not dados_temperatura:
                 print('Nenhum dado inserido. Por favor, insira os dados primeiro.')
             else:
                 try:
-                    media_temperatura = sum(dados_temperatura) / len(dados_temperatura)
+                    media_temperatura = sum(dados_temperatura) / len(dados_temperatura) #media da temp para apresentar no final
                     descricao_temperatura = calcular_temperatura_descricao(media_temperatura)
-                    print(f'A média de temperatura é: {media_temperatura}°C ({descricao_temperatura})')
+                    print(f'A média de temperatura é: {round(media_temperatura, 1)}°C ({descricao_temperatura})')
                 except ZeroDivisionError:
                     print('Nenhum dado de temperatura inserido.')
 
@@ -88,7 +92,7 @@ while True:
                 plotar_grafico()
 
         case '0':
-            print('Saindo do programa...')
+            print('Saindo do programa...')  # para o codigo
             break
 
         case _:
