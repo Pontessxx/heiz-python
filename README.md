@@ -1,4 +1,7 @@
 # README
+#### [link do `tinkercad`](https://www.tinkercad.com/things/jF4wiORb41d?sharecode=nk5zQd-8BtCSaRzSzX4gIj9It6Q3VhzU6KKkw0ai6EU)
+#### [link do `youtube`](https://youtu.be/38ourC6nbUk)
+#### [link `githubprojeto`](https://github.com/Pontessxx/Arduino-HEIZ)
 
 ## Equipe
 
