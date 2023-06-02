@@ -1,19 +1,18 @@
 # README
+
 #### [link do `tinkercad`](https://www.tinkercad.com/things/jF4wiORb41d?sharecode=nk5zQd-8BtCSaRzSzX4gIj9It6Q3VhzU6KKkw0ai6EU)
 #### [link do `youtube`](https://youtu.be/38ourC6nbUk)
 #### [link `githubprojeto`](https://github.com/Pontessxx/Arduino-HEIZ)
 https://github.com/Pontessxx/heiz-python/assets/126187491/27d36638-9014-46e6-9de4-78ae04bb18ae
-## Equipe
 
+## Equipe
 - Felipe Capriotti da Silva Santos | RM: 98460
 - Gustavo Kawamura Christofani | RM: 99679
 - Henrique Pontes Oliveira | RM: 98036
 - Rafael Carvalho mattos | RM: 99874
 - Vinicius Santos Yamashita de Farias | RM: 550908
 
-
 ## Projeto: Aplicação em Python para Combate à Fome Mundial
-
 ### Descrição
 Este projeto consiste no desenvolvimento de uma aplicação em Python voltada para abordar temas relacionados à fome mundial e à escassez de alimentos. Através desta aplicação, buscamos conscientizar e informar os usuários sobre a importância de combater esse problema global.
 
@@ -23,8 +22,8 @@ Este projeto consiste no desenvolvimento de uma aplicação em Python voltada pa
 3. Conscientização e engajamento: Através de conteúdos informativos e inspiradores, pretendemos conscientizar os usuários sobre a importância de apoiar ações e projetos relacionados ao combate à fome.
 
 ### Funcionalidades
-1. Mostra graficos de temperatura e ph da agua anual, para verificar se houve danos ou perdas na safra.
-2. Pode melhorar a produção e evitar o desperdício de alimentos
+1. Mostra gráficos de temperatura e pH da água anualmente, para verificar se houve danos ou perdas na safra.
+2. Pode melhorar a produção e evitar o desperdício de alimentos.
 
 ### Instruções de Uso
 1. Clone este repositório em sua máquina local.
@@ -51,3 +50,14 @@ Agradecemos à disciplina de Software & Total Experience Design e à disciplina 
 Esperamos que esta aplicação seja uma ferramenta útil para disseminar conhecimento e promover a conscientização sobre o combate à fome mundial.
 
 Desenvolvido por HortoTech.
+
+## Melhorias Implementadas no Código
+
+- O código foi organizado em funções para melhorar a modularidade e reutilização do código.
+- Adicionadas verificações de entrada de dados para garantir que valores válidos sejam inseridos.
+- Adicionada opção de executar uma nova simulação após a exibição do gráfico.
+- Mensagens de instrução e alerta ao usuário foram aprimoradas para fornecer informações claras.
+- Removidas as variáveis não utilizadas "led" e "buzzer" do loop principal do programa.
+- O código foi comentado de forma mais abrangente para facilitar a compreensão e manutenção do código.
+- Atualizado o arquivo README.md para refletir as melhorias implementadas no código.
+
