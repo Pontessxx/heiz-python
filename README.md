@@ -57,7 +57,5 @@ Desenvolvido por HortoTech.
 - Adicionadas verificações de entrada de dados para garantir que valores válidos sejam inseridos.
 - Adicionada opção de executar uma nova simulação após a exibição do gráfico.
 - Mensagens de instrução e alerta ao usuário foram aprimoradas para fornecer informações claras.
-- Removidas as variáveis não utilizadas "led" e "buzzer" do loop principal do programa.
 - O código foi comentado de forma mais abrangente para facilitar a compreensão e manutenção do código.
 - Atualizado o arquivo README.md para refletir as melhorias implementadas no código.
-
